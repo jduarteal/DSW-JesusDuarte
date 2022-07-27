@@ -1,0 +1,42 @@
+header{
+    background-color: #5800FF;
+    }
+    ul, ol{
+        list-style: none;
+     }
+    .menu li a {
+        
+        background-color: beige;
+        
+        color: black;
+        text-decoration: white;
+        padding: 20px 30px;
+        display: block;
+        justify-content: space-between;
+    }
+    .menu li a:hover {
+        background-color:whitesmoke ;
+    }
+    
+    .menu > li {
+        float:left;
+    }
+    .menu li ul {
+        display:none;
+        position:absolute;
+        min-width: 140px;
+      
+    }
+    .menu li:hover > ul {
+        display: block;
+    }
+    
+    section{
+        grid-column: 1/4;
+        background-color: #0096FF;
+        }
+    
+    footer{
+        background-color: #72FFFF;
+    
+    }
